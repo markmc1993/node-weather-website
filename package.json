@@ -4,12 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/app.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "eval": "^0.1.8",
     "express": "^4.18.2",
     "hbs": "^4.2.0",
     "postman-request": "^2.88.1-postman.31"
